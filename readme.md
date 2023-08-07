@@ -18,4 +18,3 @@
 
 - añadimos una fuente de Google Fonts (https://fonts.google.com/ ) - copiaremos el codigo con @import en el archivo custom.scss
 - revisar el archivo \_variables.scsss localizado en /node_modules/bootstrap/scss/\_variables.scss
-  $font-family-base: 'Cormorant Garamond', serif; cursive;

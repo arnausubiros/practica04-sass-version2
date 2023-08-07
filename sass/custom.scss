@@ -1,16 +1,21 @@
 // Custom.scss
 // Option A: Include all of Bootstrap
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap');
+// font-family: 'Montserrat', sans-serif;
 
-// google fonts 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400;500;600;700&display=swap');
-
-//CSS rules to specify families
-// font-family: 'Cormorant Garamond', serif; cursive;
-//CSS rules to specify families
-$font-family-base: 'Cormorant Garamond', serif, 'Dancing Script', cursive;
+$font-family-base: 'Montserrat', sans-serif;
 $primary: #3cb4ab;
+
+$enable-negative-margins: true;
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+
+
+
+.nav-form-control {
+    background-color: $primary;
+    border-color: $light;
+}
