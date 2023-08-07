@@ -1,7 +1,16 @@
 // Custom.scss
 // Option A: Include all of Bootstrap
 
-// Include any default variable overrides here (though functions won't be available)
+
+// google fonts 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+//CSS rules to specify families
+// font-family: 'Cormorant Garamond', serif; cursive;
+//CSS rules to specify families
+$font-family-base: 'Cormorant Garamond', serif, 'Dancing Script', cursive;
+$primary: #3cb4ab;
+
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
