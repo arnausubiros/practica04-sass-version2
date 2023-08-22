@@ -1,17 +1,10 @@
-// Custom.scss
-// Option A: Include all of Bootstrap
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,600&display=swap");
 // font-family: 'Montserrat', sans-serif;
-
-$font-family-base: 'Montserrat', sans-serif;
+$font-family-base: "Montserrat", sans-serif;
 $primary: #3cb4ab;
-
 $enable-negative-margins: true;
 
-
 @import "../node_modules/bootstrap/scss/bootstrap";
-
 
 
 
@@ -19,3 +12,17 @@ $enable-negative-margins: true;
     background-color: $primary;
     border-color: $light;
 }
+
+header {
+    background-image: url("../img/img1.jpg");
+    background-size: cover;
+    background-position:  center;
+    height: 200px;
+}
+
+@include media-breakpoint-up(md) {
+    header {
+        height: 500px;
+    }
+}
+
